@@ -3,9 +3,12 @@ import React, { Component } from 'react';
 import $ from "jquery";
 import Header from '../../pages/header.js';
 import Footer from '../footer.js';
+import Padchain from '../padchain/Padchain.js';
 import arrow from '../../images/arrow.png'
 import toyo from '../../images/toyo.png'
 import progress from '../../images/progress.png'
+import Upcomingpool from '../padchain/Upcomingpool.js';
+import Completedpools from '../padchain/Completedpools.js';
 class Home extends Component {
 	constructor(props) {
 		super(props);
@@ -136,8 +139,11 @@ class Home extends Component {
 									<div className='upcoming-heading'>
 										<h3>UPCOMING POOLS</h3>
 									</div>
+									
 								</div>
-								<div className='u-box'>
+								<Upcomingpool />
+								 
+								{/* <div className='u-box'>
 									<div className='ubleft'>
 										<div className='upcoming-box-wrap'>
 											<div className='upcoming-top'>
@@ -214,7 +220,7 @@ class Home extends Component {
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</section>
@@ -226,7 +232,8 @@ class Home extends Component {
 										<h3>Completed Pools</h3>
 									</div>
 								</div>
-								<div className='P-box'>
+								<Completedpools />
+								{/* <div className='P-box'>
 									<div className='pbleft'>
 										<div className='pool-box-wrap'>
 											<div className='upcoming-top'>
@@ -325,8 +332,8 @@ class Home extends Component {
 											</div>
 										</div>
 									</div>
-								</div>
-								<div className='P-box'>
+								</div> */}
+								{/* <div className='P-box'>
 									<div className='pbleft'>
 										<div className='pool-box-wrap'>
 											<div className='upcoming-top'>
@@ -425,7 +432,7 @@ class Home extends Component {
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</section>

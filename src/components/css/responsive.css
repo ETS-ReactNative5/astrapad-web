@@ -204,8 +204,41 @@
         margin-right: 25%;
     }
     /* farm closed */
+     
 }
 @media(max-width: 992px){
+      /* create presale css open here */
+      #createpresalebg {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+   
+.softcap-content > h3{
+    font-size: 13px;
+}
+.wrp-softcap > input{
+    font-size: 13px;
+}
+.form-control12{
+    font-size: 13px;
+}
+.input-know > h3{
+    font-size: 13px;
+}
+.presalerate-box > h3 > input{
+    width: 82%;
+}
+.date-content-box > h3{
+    font-size: 13px;
+}
+.mt-5 {
+    margin-top: 2rem!important;
+}
+.list-box-l2{
+    margin-top: 30px;
+}
+/* create presale css closed here */
+ 
   
     .logo-box > a > img {
         width: 110px;
@@ -403,8 +436,108 @@
         padding-top: 4%;
     }
     /* farm closed */
+    
+ /* create presale css open here */
+   
+.softcap-content > h3{
+    font-size: 13px;
+}
+.wrp-softcap > input{
+    font-size: 13px;
+}
+.form-control12{
+    font-size: 13px;
+}
+.input-know > h3{
+    font-size: 13px;
+}
+.presalerate-box > h3 > input{
+    width: 82%;
+}
+.date-content-box > h3{
+    font-size: 13px;
+}
+.mt-5 {
+    margin-top: 2rem!important;
+}
+.list-box-l2{
+    margin-top: 30px;
+}
+/* create presale css closed here */
+  
+
 }
 @media(max-width: 767px){
+    /* create presale css open here */
+    
+    .wrp-list-box{
+        display: inherit;
+    }
+    .tabs a{
+        font-size: 12px;
+    }
+    .connect-wallet textarea, .connect-wallet input{
+        font-size: 14px;
+    }
+    .connect-wallet > a{
+        font-size: 14px;
+    }
+    .wrp-social-l {
+        display: inherit;
+        text-align: center;
+    }
+    .blue-99{
+        font-size: 13px;
+    }
+    .charts {
+        width: 18px;
+    }
+    .list-s-icons{
+        margin-top: 15px;
+    }
+    .presale-head {
+        width: 100%;
+        background-size: 100% 100%;
+        height: 82px;
+    }
+    .presale-head {
+        padding-top: 5px;
+    }
+    .wrp-verify-box{
+        display: inherit;
+    }
+    .verify-left-box,.verify-right-box{
+        width: 100%;
+    }
+    .verify-box2{
+        padding: 10px 30px 25px 30px;
+    }
+    .presalerate-box > h3 > input{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .presalerate-box > h3{
+        font-size: 13px;
+    }
+    .softcap-left > span{
+        font-size: 13px;
+    }
+    .datetime-input > input{
+        font-size: 13px;
+    }
+    .date-content-box{
+        margin-top: 15px;
+    }
+    .presale-list > li{
+        margin: 0px! important;
+    }
+    .approve-text > h5{
+        font-size: 15px;
+    }
+    .softcap-left > input{
+        font-size: 13px;
+    }
+    /* create presale css closed here */
     .logo-box > a > img {
         width: 100px;
     }
@@ -793,7 +926,148 @@
         width: 43%;
     }
     /* farm closed */
+    /* create presale css open here */
+    
+    .wrp-list-box{
+        display: inherit;
+    }
+    .tabs a{
+        font-size: 12px;
+    }
+    .connect-wallet textarea, .connect-wallet input{
+        font-size: 14px;
+    }
+    .connect-wallet > a{
+        font-size: 14px;
+    }
+    .wrp-social-l {
+        display: inherit;
+        text-align: center;
+    }
+    .blue-99{
+        font-size: 13px;
+    }
+    .charts {
+        width: 18px;
+    }
+    .list-s-icons{
+        margin-top: 15px;
+    }
+    .presale-head {
+        width: 100%;
+        background-size: 100% 100%;
+        height: 82px;
+    }
+    .presale-head {
+        padding-top: 5px;
+    }
+    .wrp-verify-box{
+        display: inherit;
+    }
+    .verify-left-box,.verify-right-box{
+        width: 100%;
+    }
+    .verify-box2{
+        padding: 10px 30px 25px 30px;
+    }
+    .presalerate-box > h3 > input{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .presalerate-box > h3{
+        font-size: 13px;
+    }
+    .softcap-left > span{
+        font-size: 13px;
+    }
+    .datetime-input > input{
+        font-size: 13px;
+    }
+    .date-content-box{
+        margin-top: 15px;
+    }
+    .presale-list > li{
+        margin: 0px! important;
+    }
+    .approve-text > h5{
+        font-size: 15px;
+    }
+    .softcap-left > input{
+        font-size: 13px;
+    }
+    .box-section {
+        padding-bottom: 30px;
+        padding-top: 0px;
+    }
+    .list-s-icons {
+        justify-content: center;
+    }
+    /* create presale css closed here */
 }
 
-
-
+@media(max-width: 680px){
+  
+   
+    /* create presale css open here */
+    #createpresalebg{
+        background-size: cover;
+    }
+    h3{
+        margin: 11px;
+    }
+    .tabs{
+        display: inherit;
+    }
+    .tabs > li{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .emptyCard{
+        margin-top: 15px;
+    }
+    .wrp-list-box > div > h4{
+        font-size: 18px;
+    }
+    .mrt-left{
+        margin-left: 0px;
+    }
+    .charts{
+        width: 14px;
+    }
+    .blue-99 {
+        font-size: 12px;
+    }
+    .list-box-l2{
+        padding: 20px 15px 20px 15px;
+    }
+    .padchain-box {
+        padding: 20px 0px 0px 0px;
+    }
+    .presale-head {
+        padding-top: 10px;
+    }
+    .verify-box2 {
+        padding: 10px 15px 25px 15px;
+    }
+    #createpresalebg {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .wrpknow {
+        display: inherit;
+    }
+    .input-know > h3 {
+        font-size: 13px;
+    }
+    .know-content {
+        text-align: left;
+    }
+    .input-know > h3 {
+        margin: 0px;
+    }
+    .input-know > p {
+        color: #fff;
+        font-size: 12px;
+      }
+    /* create presale css closed here */
+}

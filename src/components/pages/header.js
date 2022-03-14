@@ -15,6 +15,7 @@ import crosss from '../images/crosss.png';
 import telegram from '../images/telegram.png';
 import medium from '../images/medium.png';
 import twitter from '../images/twitter.png';
+import ConnectButton from './ConnectButton.js'
 
 
 const Header = () => {
@@ -71,7 +72,8 @@ function changePickupStoreMenu(){
               <ul className="menu-list-d">
                       <li><a href='#'>
                         <div className='buttonbg'>
-                          <p>Connect Wallet</p>
+                          <p><ConnectButton /></p>
+                        
                         </div>
                         </a></li>
                         <li>
@@ -105,7 +107,8 @@ function changePickupStoreMenu(){
                 <ul className="menu-list2">
                 <li><a href='#'>
                         <div className='buttonbg'>
-                          <p>Connect Wallet</p>
+                          <p><ConnectButton /></p>
+                        
                         </div>
                         </a></li>
                         <li>
