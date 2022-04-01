@@ -41,7 +41,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "aws --profile predictz --region us-east-1 s3 sync ./build s3://flokipetworld --delete"
+    "deploy": "aws --profile ahmed --region us-east-1 s3 sync ./build s3://astrapad.web --delete"
   },
   "devDependencies": {
     "@types/reactstrap": "^6.4.0"
