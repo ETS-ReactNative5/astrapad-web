@@ -204,9 +204,33 @@
         margin-right: 25%;
     }
     /* farm closed */
+
+    /* NFTMarketplace open here */
+    .nft-marketplace-main-wrap {
+        padding: 0px 40px;
+    }
+    /* NFTMarketplace close here */
      
 }
 @media(max-width: 992px){
+    
+    /* NFTMarketplace open here */
+    .nft-marketplace-wrap {
+        display: inherit;
+    }
+    .nft-marketplace-heading {
+        padding-top: 80px;
+    }
+    .nft-m-right {
+        height: 700px;
+        width: 100%;
+        margin-top: 60px;
+    }
+    .nft-m-left {
+        height: 700px;
+        width: 100%; 
+    }
+    /* NFTMarketplace close here */
       /* create presale css open here */
       #createpresalebg {
         padding-top: 20px;
@@ -464,10 +488,68 @@
     margin-top: 30px;
 }
 /* create presale css closed here */
-  
+
+/* marketplace open here */
+.tabs6 a {
+    padding: 8px 24px;
+}
+/* marketplace closed here */
+
+/* product open here  */
+.product-right-content {
+    margin-top: 30px;
+}
+/* product closed here */
 
 }
 @media(max-width: 767px){
+
+/* profile open here */
+#edit-profile {
+    padding: 80px 0px;
+}
+/* profile close here */
+
+/* collection page open here */
+.tabs-btn>h3 {
+    font-size: 24px;
+}
+/* collection page closed here */
+   /* marketplace open here */
+   .tabs6 {
+    display: inherit;
+}
+.tabs6 a {
+    margin-right: 0px;
+}
+.tabs6 > li {
+    margin-top: 15px;
+}
+.tabs6 > li:first-child{
+    margin-top: 0px;
+}
+   /* marketplace closed here */
+
+    /* NFTMarketplace open here */
+    .nft-marketplace-main-wrap {
+        padding: 0px;
+    }
+    .nft-marketplace-heading {
+        padding-top: 40px;
+    }
+    .nft-content {
+        margin-top: 80px;
+    }
+    .nft-m-right {
+        height: 410px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .nft-m-left {
+        height: 410px;
+        width: 100%; 
+    }
+    /* NFTMarketplace close here */
     /* create presale css open here */
     
     .wrp-list-box{

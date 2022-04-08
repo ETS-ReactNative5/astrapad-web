@@ -8,6 +8,14 @@ import Padchain from './components/pages/padchain/Padchain';
 import Paddetails from './components/pages/padchain/Paddetails';
 import Oldpaddetails from './components/pages/padchain/Oldpaddetails';
 import Createpresale from './components/pages/createpresale/Createpresale';
+import NFTMarketplace from './components/pages/NFTMarketplace/NFTMarketplace';
+import Buy from './components/pages/ino/Buy';
+import marketplace from './components/pages/marketplace/marketplace.js';
+import Collection from './components/pages/explore/Collection';
+import Product from './components/pages/product/Product.js';
+import Single from './components/pages/single/single';
+import ViewProfile from './components/pages/profile/viewProfile';
+import Profile from './components/pages/profile/profile';
  
 
 
@@ -26,13 +34,18 @@ class App extends Component {
 			<Route exact path="/" name="Home Page" component = {Home} />
 			<Route exact path="/Claimtoken" name="Claimtoken Page" component = {Claimtoken} />
 			<Route exact path="/Stake" name="Stake Page" component = {Stake} />
-			<Route exact path="/Padchain" name="Padchain Page" component = {Padchain} />
+			<Route exact path="/iuo/list" name="Padchain Page" component = {Padchain} />
 			<Route exact path="/iuo/details/:slug" component={Paddetails} />
 			<Route exact path="/paddetails/:slug" component={Oldpaddetails} />
 			<Route exact path="/createpresale" name="Createpresale Page" component = {Createpresale} />
-			 
-			 
-			 
+			<Route exact path="/choose" name="NFTMarketplace Page" component = {NFTMarketplace} />
+			<Route exact path="/ino/:address" name="ino Page" component = {Buy} />
+			<Route exact path="/marketplace" name="marketplace Page" component = {marketplace} />
+			<Route exact path="/collection" name="collection Page" component = {Collection} />
+			<Route exact path="/product/:tradeid" name="Product Page" component = {Product} />
+			<Route exact path="/single" name="marketplace Page" component = {Single} />
+			<Route exact path="/profile" name="Profile Page" component = {Profile} />
+			<Route exact path="/profile/view/:account" name="View Profile Page" component = {ViewProfile} />
 		</div>
 	</Router>
     );

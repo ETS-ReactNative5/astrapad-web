@@ -1,7 +1,7 @@
 module.exports = {
     CHAIN_ID: 250 ,
     RPC_URL: 'https://rpcapi.fantom.network/' ,
-    EX_LINK: 'https://ftmscan.com/address/',
+    EX_LINK: 'https://bscscan.com/address/',
     NFT_LINK: "https://ftmscan.com/address/", // Live 2
 
     MARKETPLACE: "0x64eF011168188ccdA22b4d70D146Fb019906bAF6", // Live 1
