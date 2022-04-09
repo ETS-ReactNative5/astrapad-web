@@ -212,6 +212,8 @@ p{
   background-size: cover;
   padding: 14px 70px;
   transition: 0.5s;
+  width: 250px;
+  text-align: center;
 }
 .buttonbg:hover{
   transform: translateY(-8px);
@@ -371,6 +373,8 @@ body.smr-open .slide-menu-right {
   background-size: cover;
   padding: 14px 56px;
   transition: 0.5s;
+  width: 240px;
+  text-align: center;
 }
 .Applybutn:hover{
   transform: translateY(-8px);
@@ -380,8 +384,10 @@ body.smr-open .slide-menu-right {
   background-image: url(../images/buttonbg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 14px 46px;
+  padding: 14px 60px;
   transition: 0.5s;
+  width: 240px;
+  text-align: center;
 }
 .pancakebutn:hover{
   transform: translateY(-8px);
@@ -400,6 +406,8 @@ body.smr-open .slide-menu-right {
   background-size: cover;
   padding: 14px 57px;
   transition: 0.5s;
+  width: 240px;
+  text-align: center;
 }
 .buy-s-butn:hover{
   transform: translateY(-8px);
@@ -411,6 +419,8 @@ body.smr-open .slide-menu-right {
   background-size: cover;
   padding: 14px 57px;
   transition: 0.5s;
+  width: 240px;
+  text-align: center;
 }
 .buy-s-butntwo:hover{
   transform: translateY(-8px);
@@ -447,8 +457,8 @@ body.smr-open .slide-menu-right {
   background-image: url(../images/somethingimg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 12px 0px;
-    width: 430px;
+  padding: 14px 0px;
+    width: 451px;
 }
 .something-head > h5 {
   font-family: 'MADE TOMMY';
@@ -460,9 +470,9 @@ body.smr-open .slide-menu-right {
   background-image: url(../images/somethingbox.png);
   background-repeat: no-repeat;
   background-size: cover;
-    padding: 30px;
-    width: 390px;
-    height: 188px;
+  padding: 15px;
+  width: 410px;
+  height: 198px;
 }
  
 .knowmore-but > a > img {
@@ -471,7 +481,7 @@ body.smr-open .slide-menu-right {
 }
 .somethingbox > p {
   font-family: 'MADE TOMMY';
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
 }
 .knowmore-but > a {
@@ -4646,3 +4656,97 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator{
 
 }
 /* edit profile page css closed here */
+
+
+
+/* faq open here */
+ 
+.main-container {
+  padding: 0 92px 60px 92px;
+}
+.head-faq>h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: 'Furore';
+  padding-top: 15px;
+}
+.wrapper {
+  padding-top: 15px;
+}
+.block__items2 {
+  background: radial-gradient(at 30% 15%,#3399ff57,#fe34dc5c);
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 3%);
+  border: 2px solid #11d6ff8f;
+  border-radius: inherit;
+  margin-bottom: 0!important;
+  padding: 20px 25px!important;
+}
+.block__item, .block__item1 {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 8px;
+  transition: .5s;
+  margin-top: 20px;
+}
+.block__items2>.block__title {
+  font-weight: 400;
+  font-family: 'MADE TOMMY';
+  font-size: 14px;
+  font-style: normal;
+}
+.block__title {
+  position: relative;
+  cursor: pointer;
+  font-size: 15px;
+  color: #fff;
+  font-style: italic;
+}
+.block__title.active:before {
+  -webkit-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+}
+.block__title.active:after, .block__title.active:before {
+  background-color: fff;
+}
+.block__title:before {
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+  right: 0;
+}
+.block__title:after, .block__title:before {
+  content: "";
+  width: 10px;
+  height: 2px;
+  background-color: hsla(0,0%,100%,.47843137254901963);
+  position: absolute;
+  top: 12px;
+  transition: all .3s ease 0s;
+}
+.block__title.active:after {
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
+.block__title:after {
+  -webkit-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+  right: -7px;
+}
+.block__title:after, .block__title:before {
+  content: "";
+  width: 10px;
+  height: 2px;
+  background-color: hsla(0,0%,100%,.47843137254901963);
+  position: absolute;
+  top: 12px;
+  transition: all .3s ease 0s;
+}
+.block__text {
+  font-family: 'MADE TOMMY';
+  display: none;
+  padding-top: 12px;
+  color: #fff;
+  font-size: 12px;
+}
+/* faq close here */

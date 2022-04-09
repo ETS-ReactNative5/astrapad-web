@@ -17,6 +17,8 @@ import Single from './components/pages/single/single';
 import ViewProfile from './components/pages/profile/viewProfile';
 import Profile from './components/pages/profile/profile';
  
+ 
+ 
 
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
@@ -46,6 +48,8 @@ class App extends Component {
 			<Route exact path="/single" name="marketplace Page" component = {Single} />
 			<Route exact path="/profile" name="Profile Page" component = {Profile} />
 			<Route exact path="/profile/view/:account" name="View Profile Page" component = {ViewProfile} />
+			 
+		 
 		</div>
 	</Router>
     );
